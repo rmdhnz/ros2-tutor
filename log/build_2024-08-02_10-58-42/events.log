@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000760] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.011186] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.012086] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.012685] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'divspan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspan'), ('OLDPWD', '/home/divspan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1449'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7085'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install:/home/divspan/ros2_ws/install:/home/divspan/tutorial_ros_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'divspan'), ('JOURNAL_STREAM', '8:29175'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'divspan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/divspan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/divspan-Lenovo-V14-G2-ALC:@/tmp/.ICE-unix/1595,unix/divspan-Lenovo-V14-G2-ALC:/tmp/.ICE-unix/1595'), ('INVOCATION_ID', '3de9a60a52ff4c34aaf2213fac2a6201'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.27RLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install/cpp_pubsub:/home/divspan/ros2_ws/install/my_robot_controller:/home/divspan/tutorial_ros_cpp/src/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ff1d3238-5c21-4ad3-8fe5-2bf977b084e2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/divspan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install/cpp_pubsub:/home/divspan/tutorial_ros_cpp/src/install/cpp_pubsub:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.063624] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099523] (-) TimerEvent: {}
+[0.182286] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.197129] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199619] (-) TimerEvent: {}
+[0.231956] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.234722] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.241640] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.253706] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.268968] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299751] (-) TimerEvent: {}
+[0.325573] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.328045] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399881] (-) TimerEvent: {}
+[0.454829] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500026] (-) TimerEvent: {}
+[0.598131] (cpp_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.600108] (-) TimerEvent: {}
+[0.637070] (cpp_pubsub) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.700252] (-) TimerEvent: {}
+[0.752485] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800423] (-) TimerEvent: {}
+[0.827006] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.827459] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.827556] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.828401] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.829661] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.830484] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.833258] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.833391] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.833986] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.835772] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.865768] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.868287] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/divspan/tutorial_ros_cpp/build/cpp_pubsub\n'}
+[0.900574] (-) TimerEvent: {}
+[0.902031] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.902407] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pose_subscriber\x1b[0m\n'}
+[0.902648] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_circle\x1b[0m\n'}
+[0.902765] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.902856] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sender\x1b[0m\n'}
+[0.916888] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.938582] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[0.938981] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target pose_subscriber\n'}
+[0.939094] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target sender\n'}
+[0.939339] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[0.942397] (cpp_pubsub) StdoutLine: {'line': b'[ 91%] Built target draw_circle\n'}
+[1.000681] (-) TimerEvent: {}
+[1.101236] (-) TimerEvent: {}
+[1.202159] (-) TimerEvent: {}
+[1.302561] (-) TimerEvent: {}
+[1.402973] (-) TimerEvent: {}
+[1.503341] (-) TimerEvent: {}
+[1.603767] (-) TimerEvent: {}
+[1.704618] (-) TimerEvent: {}
+[1.805046] (-) TimerEvent: {}
+[1.905526] (-) TimerEvent: {}
+[2.006010] (-) TimerEvent: {}
+[2.106528] (-) TimerEvent: {}
+[2.207033] (-) TimerEvent: {}
+[2.307514] (-) TimerEvent: {}
+[2.408236] (-) TimerEvent: {}
+[2.508721] (-) TimerEvent: {}
+[2.609206] (-) TimerEvent: {}
+[2.709690] (-) TimerEvent: {}
+[2.810192] (-) TimerEvent: {}
+[2.910699] (-) TimerEvent: {}
+[3.011125] (-) TimerEvent: {}
+[3.111558] (-) TimerEvent: {}
+[3.211996] (-) TimerEvent: {}
+[3.312414] (-) TimerEvent: {}
+[3.412983] (-) TimerEvent: {}
+[3.513863] (-) TimerEvent: {}
+[3.614351] (-) TimerEvent: {}
+[3.714786] (-) TimerEvent: {}
+[3.815148] (-) TimerEvent: {}
+[3.896053] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[3.915303] (-) TimerEvent: {}
+[4.015727] (-) TimerEvent: {}
+[4.049201] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[4.063553] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.115971] (-) TimerEvent: {}
+[4.121522] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[4.132933] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub'], 'cwd': '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'divspan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspan'), ('OLDPWD', '/home/divspan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1449'), ('SYSTEMD_EXEC_PID', '1619'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7085'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install:/home/divspan/ros2_ws/install:/home/divspan/tutorial_ros_cpp/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'divspan'), ('JOURNAL_STREAM', '8:29175'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'divspan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/divspan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/divspan-Lenovo-V14-G2-ALC:@/tmp/.ICE-unix/1595,unix/divspan-Lenovo-V14-G2-ALC:/tmp/.ICE-unix/1595'), ('INVOCATION_ID', '3de9a60a52ff4c34aaf2213fac2a6201'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.27RLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install/cpp_pubsub:/home/divspan/ros2_ws/install/my_robot_controller:/home/divspan/tutorial_ros_cpp/src/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ff1d3238-5c21-4ad3-8fe5-2bf977b084e2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/divspan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/divspan/tutorial_ros_cpp/install/cpp_pubsub:/home/divspan/tutorial_ros_cpp/src/install/cpp_pubsub:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[4.140548] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.140958] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.141240] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[4.141511] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[4.141642] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/turtle_controller\n'}
+[4.151857] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/sender\n'}
+[4.152192] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/pose_subscriber\n'}
+[4.152374] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/draw_circle\n'}
+[4.152506] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[4.152682] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[4.152765] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[4.152829] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[4.152920] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[4.153000] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[4.153091] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[4.153212] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[4.153384] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[4.153505] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[4.153592] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[4.163921] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[4.164134] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[4.164322] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[4.164679] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[4.167634] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.216108] (-) TimerEvent: {}
+[4.227441] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.228287] (-) EventReactorShutdown: {}

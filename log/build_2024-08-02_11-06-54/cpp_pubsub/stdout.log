@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[ 50%] Built target listener
+[ 50%] Built target talker
+[ 50%] Built target sender
+[ 66%] Built target pose_subscriber
+[ 83%] Built target draw_circle
+[ 91%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_controller[0m
+[100%] Built target turtle_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/turtle_controller
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/sender
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/pose_subscriber
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/draw_circle
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.xml

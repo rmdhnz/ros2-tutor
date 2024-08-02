@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/drawer.dir/src/draw_circle.cpp.o[0m
+[ 37%] Built target talker
+[ 87%] Built target listener
+[ 87%] Built target sender
+[01m[K/home/divspan/tutorial_ros_cpp/src/cpp_pubsub/src/draw_circle.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drawer.dir/build.make:76: CMakeFiles/drawer.dir/src/draw_circle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/drawer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/drawer.dir/src/draw_circle.cpp.o[0m
+[ 50%] Built target sender
+[ 62%] Built target talker
+[ 87%] Built target listener

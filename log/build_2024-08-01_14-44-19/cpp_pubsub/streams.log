@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/divspan/tutorial_ros_cpp/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/divspan/tutorial_ros_cpp/install/cpp_pubsub
+[0.023s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.138s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.165s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.244s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.362s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.493s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.561s] -- Configured cppcheck include dirs: 
+[0.561s] -- Configured cppcheck exclude dirs and/or files: 
+[0.562s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.563s] -- Added test 'lint_cmake' to check CMake code style
+[0.563s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.566s] -- Added test 'uncrustify' to check C / C++ code style
+[0.566s] -- Configured uncrustify additional arguments: 
+[0.566s] -- Added test 'xmllint' to check XML markup files
+[0.568s] -- Configuring done
+[0.589s] -- Generating done
+[0.592s] -- Build files have been written to: /home/divspan/tutorial_ros_cpp/build/cpp_pubsub
+[0.605s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/divspan/tutorial_ros_cpp/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/divspan/tutorial_ros_cpp/install/cpp_pubsub
+[0.606s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.666s] [ 16%] [32mBuilding CXX object CMakeFiles/sender.dir/src/sender_node.cpp.o[0m
+[0.678s] [ 33%] [32m[1mLinking CXX executable talker[0m
+[0.682s] [ 50%] [32m[1mLinking CXX executable listener[0m
+[1.030s] [ 66%] Built target talker
+[1.299s] [ 83%] Built target listener
+[5.112s] [100%] [32m[1mLinking CXX executable sender[0m
+[5.332s] [100%] Built target sender
+[5.347s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16
+[5.392s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/divspan/tutorial_ros_cpp/build/cpp_pubsub
+[5.400s] -- Install configuration: ""
+[5.400s] -- Execute custom install script
+[5.400s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.410s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.421s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/sender
+[5.431s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.441s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.451s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.462s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.473s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.483s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.493s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.504s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.515s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.525s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.535s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.544s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.556s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.567s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.577s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.590s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/divspan/tutorial_ros_cpp/build/cpp_pubsub

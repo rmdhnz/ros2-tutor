@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target sender[0m
+[0.104s] [ 40%] Built target listener
+[0.104s] [ 40%] Built target talker
+[0.109s] [ 60%] Built target draw_circle
+[0.115s] [ 90%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_sub.cpp.o[0m
+[0.115s] [ 90%] Built target sender
+[3.483s] [100%] [32m[1mLinking CXX executable pose_subscriber[0m
+[3.634s] [100%] Built target pose_subscriber
+[3.649s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16
+[3.732s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/divspan/tutorial_ros_cpp/build/cpp_pubsub
+[3.739s] -- Install configuration: ""
+[3.740s] -- Execute custom install script
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/listener
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/sender
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/pose_subscriber
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/lib/cpp_pubsub/draw_circle
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.740s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.741s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.742s] -- Symlinking: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.753s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.753s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.753s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.753s] -- Up-to-date symlink: /home/divspan/tutorial_ros_cpp/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.756s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/divspan/tutorial_ros_cpp/build/cpp_pubsub

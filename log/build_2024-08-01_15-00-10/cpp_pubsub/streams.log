@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/divspan/tutorial_ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/divspan/tutorial_ros_cpp/install/cpp_pubsub
+[0.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.605s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.680s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.680s] -- Configured cppcheck include dirs: 
+[0.680s] -- Configured cppcheck exclude dirs and/or files: 
+[0.681s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.682s] -- Added test 'lint_cmake' to check CMake code style
+[0.683s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.686s] -- Added test 'uncrustify' to check C / C++ code style
+[0.686s] -- Configured uncrustify additional arguments: 
+[0.686s] -- Added test 'xmllint' to check XML markup files
+[0.688s] -- Configuring done
+[0.713s] -- Generating done
+[0.716s] -- Build files have been written to: /home/divspan/tutorial_ros_cpp/build/cpp_pubsub
+[0.726s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/divspan/tutorial_ros_cpp/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/divspan/tutorial_ros_cpp/install/cpp_pubsub
+[0.730s] Invoking command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target sender[0m
+[0.802s] [ 12%] [32mBuilding CXX object CMakeFiles/drawer.dir/src/draw_circle.cpp.o[0m
+[0.821s] [ 75%] Built target sender
+[0.821s] [ 87%] Built target talker
+[0.821s] [ 87%] Built target listener
+[1.014s] [01m[K/home/divspan/tutorial_ros_cpp/src/cpp_pubsub/src/draw_circle.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.014s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.014s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.014s] compilation terminated.
+[1.019s] gmake[2]: *** [CMakeFiles/drawer.dir/build.make:76: CMakeFiles/drawer.dir/src/draw_circle.cpp.o] Error 1
+[1.020s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/drawer.dir/all] Error 2
+[1.020s] gmake: *** [Makefile:146: all] Error 2
+[1.024s] Invoked command in '/home/divspan/tutorial_ros_cpp/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspan/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/divspan/tutorial_ros_cpp/build/cpp_pubsub -- -j16 -l16

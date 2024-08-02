@@ -1,0 +1,4 @@
+[01m[K/home/divspan/tutorial_ros_cpp/src/cpp_pubsub/src/pose_sub.cpp:[m[K In member function ‘[01m[Kvoid PoseSubscriber::pose_callback(turtlesim::msg::Pose)[m[K’:
+[01m[K/home/divspan/tutorial_ros_cpp/src/cpp_pubsub/src/pose_sub.cpp:11:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 |         void pose_callback([01;35m[Kturtlesim::msg::Pose pose[m[K){}
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
